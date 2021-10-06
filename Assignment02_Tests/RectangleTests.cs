@@ -249,7 +249,7 @@ namespace Assignment02_Tests
             //Assert
             Assert.AreEqual(testWidth, result);
         }
-        s
+        
 
         [Test]
         public void Check_Rectangle_Volume_Integer_Value()
