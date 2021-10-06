@@ -1,0 +1,21 @@
+F:\QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe.config
+F:\QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe
+F:\QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.pdb
+F:\QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csprojAssemblyReference.cache
+F:\QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csproj.CoreCompileInputs.cache
+F:\QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.exe
+F:\QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.pdb
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe.config
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.pdb
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csprojAssemblyReference.cache
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csproj.CoreCompileInputs.cache
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.exe
+C:\Users\MyCom\Downloads\Assignment02_QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.pdb
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe.config
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.exe
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\bin\Debug\Assignment02_QA.pdb
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csprojAssemblyReference.cache
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.csproj.CoreCompileInputs.cache
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.exe
+C:\Users\MyCom\conestoga\8170-2 Software QA\Assignment02_QA\Assignment02_QA\obj\Debug\Assignment02_QA.pdb
