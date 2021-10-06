@@ -41,7 +41,7 @@ namespace Assignment02_QA
         }
         public int GetVolume()
         {
-            return length + width + heigth;
+            return length * width * heigth;
         }
     }
 }

@@ -249,7 +249,7 @@ namespace Assignment02_Tests
             //Assert
             Assert.AreEqual(testWidth, result);
         }
-
+        s
 
         [Test]
         public void Check_Rectangle_Volume_Integer_Value()
@@ -274,7 +274,7 @@ namespace Assignment02_Tests
             var result = rectangle.GetVolume();
 
             //Assert
-            Assert.AreEqual(3, result);
+            Assert.AreEqual(1, result);
         }
 
 
@@ -291,7 +291,7 @@ namespace Assignment02_Tests
             rectangle.SetLength(testLength);
             rectangle.SetHeight(testHeight);
             rectangle.SetWidth(testWidth);
-            var expectedVolume = testWidth + testLength + testHeight;
+            var expectedVolume = testWidth * testLength * testHeight;
             var resultVolume = rectangle.GetVolume();
 
             //Assert
