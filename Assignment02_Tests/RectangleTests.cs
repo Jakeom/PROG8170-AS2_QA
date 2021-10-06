@@ -23,7 +23,7 @@ namespace Assignment02_Tests
             Assert.IsInstanceOf<int>(result);
         }
         [Test]
-        public void Check_Rectangle_Length_Integer_SetValue()
+        public void Check_Rectangle_Length_Integer_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -36,7 +36,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Length_Default()
+        public void Check_Rectangle_Length_Get_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -49,7 +49,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Length_SetDefault()
+        public void Check_Rectangle_Length_Set_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -62,7 +62,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Length_Value()
+        public void Check_Rectangle_Length_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -74,7 +74,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Length_SetValue()
+        public void Check_Rectangle_Length_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -90,7 +90,7 @@ namespace Assignment02_Tests
 
 
         [Test]
-        public void Check_Rectangle_Heigh_Integer_Value()
+        public void Check_Rectangle_Heigh_Integer_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -103,7 +103,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Height_Integer_SetValue()
+        public void Check_Rectangle_Height_Integer_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -116,7 +116,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Height_SetDefault()
+        public void Check_Rectangle_Height_Set_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -129,7 +129,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Height_Value()
+        public void Check_Rectangle_Height_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -142,7 +142,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Height_Default()
+        public void Check_Rectangle_Height_Get_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -155,7 +155,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Height_SetValue()
+        public void Check_Rectangle_Height_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -171,7 +171,7 @@ namespace Assignment02_Tests
 
 
         [Test]
-        public void Check_Rectangle_Width_Integer_Value()
+        public void Check_Rectangle_Width_Integer_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -184,7 +184,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Width_Integer_SetValue()
+        public void Check_Rectangle_Width_Integer_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -197,7 +197,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Width_SetDefault()
+        public void Check_Rectangle_Width_Set_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -210,7 +210,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Width_Value()
+        public void Check_Rectangle_Width_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -223,7 +223,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Width_Default()
+        public void Check_Rectangle_Width_Get_Default()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -236,7 +236,7 @@ namespace Assignment02_Tests
         }
 
         [Test]
-        public void Check_Rectangle_Width_SetValue()
+        public void Check_Rectangle_Width_Set_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -252,7 +252,7 @@ namespace Assignment02_Tests
         
 
         [Test]
-        public void Check_Rectangle_Volume_Integer_Value()
+        public void Check_Rectangle_Volume_Integer_Get_Value()
         {
             //Arrange
             var rectangle = new Rectangle();
@@ -285,7 +285,7 @@ namespace Assignment02_Tests
             int testLength = 3;
             int testHeight = 4;
             int testWidth = 5;
-
+            
             //Act
             var rectangle = new Rectangle();
             rectangle.SetLength(testLength);
