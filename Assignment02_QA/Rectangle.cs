@@ -8,9 +8,9 @@ namespace Assignment02_QA
 {
     public class Rectangle
     {
-        private int length = 0;
-        private int width = 0;
-        private int heigth = 0;
+        private int length = 1;
+        private int width = 1;
+        private int heigth = 1;
 
         public int GetLength()
         {

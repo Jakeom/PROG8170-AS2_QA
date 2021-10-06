@@ -22,6 +22,44 @@ namespace Assignment02_Tests
             //Assert
             Assert.IsInstanceOf<int>(result);
         }
+        [Test]
+        public void Check_Rectangle_Length_Integer_SetValue()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.SetLength(1);
+
+            //Assert
+            Assert.IsInstanceOf<int>(result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Length_Default()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.GetLength();
+
+            //Assert
+            Assert.AreEqual(1, result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Length_SetDefault()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+            int testValue = 10;
+            //Act
+            var result = rectangle.SetLength(testValue);
+
+            //Assert
+            Assert.AreEqual(testValue, result);
+        }
 
         [Test]
         public void Check_Rectangle_Length_Value()
@@ -65,6 +103,32 @@ namespace Assignment02_Tests
         }
 
         [Test]
+        public void Check_Rectangle_Height_Integer_SetValue()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.SetHeight(1);
+
+            //Arrange
+            Assert.IsInstanceOf<int>(result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Height_SetDefault()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+            int testValue = 10;
+            //Act
+            var result = rectangle.SetHeight(testValue);
+
+            //Assert
+            Assert.AreEqual(testValue, result);
+        }
+
+        [Test]
         public void Check_Rectangle_Height_Value()
         {
             //Arrange
@@ -75,6 +139,19 @@ namespace Assignment02_Tests
 
             //Assert
             Assert.AreEqual(rectangle.GetHeight(), result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Height_Default()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.GetHeight();
+
+            //Assert
+            Assert.AreEqual(1, result);
         }
 
         [Test]
@@ -107,6 +184,32 @@ namespace Assignment02_Tests
         }
 
         [Test]
+        public void Check_Rectangle_Width_Integer_SetValue()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.SetWidth(1);
+
+            //Assert
+            Assert.IsInstanceOf<int>(result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Width_SetDefault()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+            int testValue = 10;
+            //Act
+            var result = rectangle.SetWidth(testValue);
+
+            //Assert
+            Assert.AreEqual(testValue, result);
+        }
+
+        [Test]
         public void Check_Rectangle_Width_Value()
         {
             //Arrange
@@ -117,6 +220,19 @@ namespace Assignment02_Tests
 
             //Arrange
             Assert.AreEqual(rectangle.GetWidth(), result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Width_Default()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.GetWidth();
+
+            //Assert
+            Assert.AreEqual(1, result);
         }
 
         [Test]
@@ -146,6 +262,19 @@ namespace Assignment02_Tests
 
             //Assert
             Assert.IsInstanceOf<int>(result);
+        }
+
+        [Test]
+        public void Check_Rectangle_Volume_Default()
+        {
+            //Arrange
+            var rectangle = new Rectangle();
+
+            //Act
+            var result = rectangle.GetVolume();
+
+            //Assert
+            Assert.AreEqual(3, result);
         }
 
 
